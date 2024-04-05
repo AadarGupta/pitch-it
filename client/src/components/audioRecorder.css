@@ -1,0 +1,184 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+}
+
+.logo {
+  width: 50vh;
+  height: auto;
+}
+
+.light-text {
+  font-family: 'Proxima Nova';
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  gap: 10;
+  flex-direction: column;
+}
+
+.audio-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+audio {
+  width: 100%;
+}
+
+.same-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10vw;
+  padding: 20px;
+
+}
+
+.action-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 10vw; 
+  padding-top: 5vh;
+  padding: 5px;
+}
+
+.file-input {
+  display: none;
+}
+
+.button-style {
+  color: white;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 1.7rem; 
+  font-family: 'Proxima Nova';
+  font-weight: 600;
+  text-align: center;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0; 
+  padding: 1em 2em;
+  border: none;
+  display: inline-flex;
+}
+
+.button-style .fa-icon {
+  padding-right: 8px;
+}
+
+.primary-btn {
+  background-color: #A87F4C; 
+}
+
+.red-btn {
+  background-color: #FF0000; 
+}
+
+.button-style:hover {
+  opacity: 0.7,
+}
+
+.button-style.recording {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  border-color: #cccccc;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+  padding: 0;
+  margin: 0;
+  color: #32343E;
+  font-family: 'Proxima Nova';
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.overlay-content {
+  z-index: 100;
+}
+
+.note {
+  position: absolute;
+  animation: fall linear forwards;
+  font-size: 0.7em;
+  z-index: 10;
+  opacity: 0;
+}
+
+@keyframes fall {
+  0% { transform: translateY(-200vh); opacity: 0.75; }
+  100% { transform: translateY(300vh); opacity: 0.75; }
+}
+
+.pitch {
+  font-family: 'Proxima Nova';
+  font-size: 0.8em;
+}
+
+.word {
+  font-family: 'Proxima Nova';
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.divider {
+  height: 100vh;
+  background-color: #32343E;
+  width: 3px;
+}
+
+.noise-reduction-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.radio-option input[type="radio"] {
+  margin-right: 10px;
+  accent-color: #A87F4C; /* Change to match your theme */
+}
+
+.radio-option label {
+  margin: 0;
+  font-weight: normal; /* Adjust based on your design */
+  cursor: pointer;
+}
