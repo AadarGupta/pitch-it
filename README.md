@@ -14,7 +14,7 @@ My journey as a music artist and songwriter has been both rewarding and challeng
 + [Installation](#installation)
 + [Usage](#usage)
 + [Features](#features)
-+ [Special Thanks](#special-thanks)
++ [Special Thanks](#thank-you-note)
 + [Contact Information](#contact)
 
 ## Installation
@@ -26,5 +26,32 @@ The backend is encased in a docker container and would need to be built and run 
 
 However, to avoid this hassle and allow for public use, the project can be accessed at [pitch-it.app](https://www.pitch-it.app)
 
+## Usage
+The project has utilized many libraries and frameworks. The frontend is primarily using React and NodeJS. Some of the API requests are made using Axios, which is also a JavaScript library. The backend is built using Python, with Flask being the main endpoint for APIs. In addition to this, Docker and a Linux VPS, running Nginx, are used for infrastructure and ease of deployment. 
 
+Many Python libraries were also used for this project, such as:
++ [Gunicorn](https://gunicorn.org/)
++ [OpenAI's Whisper](https://openai.com/research/whisper)
++ [LibROSA](https://librosa.org/doc/main/index.html)
++ [NumPy](https://numpy.org/)
++ [Audioread](https://pypi.org/project/audioread/#description)
++ [PyDub](https://pypi.org/project/pydub/)
++ [NoiseReduce](https://pypi.org/project/noisereduce/)
++ [Soundfile](https://pypi.org/project/soundfile/)
 
+## Features
+The main features of this product are:
+
++ Select the language of the lyrics
++ Select the targeted key of the song
++ Upload an audio recording
++ Record audio using the WebAudio API
++ Set a range for vocals
++ Decide whether noise reduction should be applied
++ Analyze pitches associated with each lyric (with some basic pitch correction)
+
+## Thank You Note
+I would like to thank Professor Richard Mann for providing the opportunity to dive deeper with audio technology, as well as providing feedback, which not only improved the project, but also gave more insight into how these technologies actually function.
+
+## Contact
+[Aadar Gupta](aadargupta.ca)
