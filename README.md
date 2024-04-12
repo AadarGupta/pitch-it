@@ -11,11 +11,11 @@ In the rapidly evolving landscape of music production, the creation of compellin
 My journey as a music artist and songwriter has been both rewarding and challenging, marked by moments of intense creativity and periods of stagnation. Over time, I recognized a recurring need for a solution that could bridge the gap between the initial spark of inspiration and the final masterpiece. Drawing on my experiences, I envisioned a tool that would not only address my challenges but also resonate with fellow artists facing similar hurdles. The development of this tool was driven by a deep understanding of the artistic process, informed by countless hours of songwriting, composition, and production. It embodies the lessons learned from both successes and setbacks, designed to nurture creativity, foster innovation, and elevate the music production process. This tool is more than just software; it's a reflection of a journey through the complexities of musical expression, offering a helping hand to those navigating the same path.
 
 ## Table of Contents
-[Installation](#installation)
-[Usage](#usage)
-[Features](#features)
-[Special Thanks](#special-thanks)
-[Contact Information(#contact)
++ [Installation](#installation)
++ [Usage](#usage)
++ [Features](#features)
++ [Special Thanks](#special-thanks)
++ [Contact Information](#contact)
 
 ## Installation
 The project has a backend and a frontend. 
